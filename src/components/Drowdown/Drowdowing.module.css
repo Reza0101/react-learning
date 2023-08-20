@@ -1,0 +1,31 @@
+.container{
+    width: 100%;
+    z-index: 10;
+    margin: 10px 0;
+    
+}
+.titleDrowpdown{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 7;
+    position: relative;
+    -webkit-box-shadow:0px 27px 39px 10px rgba(62,66,66,0.1);
+    -moz-box-shadow: 0px 27px 39px 10px rgba(62,66,66,0.1);
+    box-shadow: 0px 27px 39px 10px rgba(62,66,66,0.1);
+    margin: 10px 0;
+}
+
+.closedText{
+    transition: all .5s;
+    height: 0;
+    opacity: 0;
+}
+.openText{
+    opacity: 1;
+    height: 70px;
+    transition: all .5s;
+}

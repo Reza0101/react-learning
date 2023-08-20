@@ -1,0 +1,29 @@
+.title{
+    font-weight: bold;
+    font-size: 25px;
+    /* font-family: "YekanBakh","IRANSansWeb","Roboto","Helvetica","Arial",sans-serif; */
+    padding: 38px 0 20px 0;
+}
+.container p{
+    line-height: 35px;
+    text-align: justify;
+    width: 100%;
+    font-weight: 500;
+}
+.listQuestions li{
+    line-height: 35px;
+    text-align: justify;
+    font-weight: 500;
+}
+.listQuestions{
+    margin: 0 15px 0 0;
+}
+
+@media (max-width: 900px) {
+    .listQuestions li {
+        line-height: 28px;
+    }
+    .title{
+        padding: 25px 0 10px 0;
+    }
+}

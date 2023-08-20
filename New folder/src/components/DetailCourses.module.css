@@ -1,0 +1,201 @@
+.container{
+    width: 85%;
+    margin: 50px auto;
+}
+.abouteCourses{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 12px;
+    -webkit-box-shadow:0px 4px 40px 0px rgba(62,66,66,0.23);
+    -moz-box-shadow: 0px 4px 40px 0px rgba(62,66,66,0.23);
+    box-shadow: 0px 4px 40px 0px rgba(62,66,66,0.23);
+    height: fit-content;
+}
+.video{
+    width: 45%;
+    margin: 20px 0;
+}
+.textCourses{
+    width: 45%;
+}
+.video video source{
+    width: 100%;
+}
+.image{
+    width: 100px;
+    display: block;
+    margin: 20px 0 10px 0;
+}
+.titleAboutCourses{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+video{
+    border-radius: 10px;
+}
+.textCourses span{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.textCourses p{
+    padding: 15px 0 ;
+    text-align: justify;
+}
+.footerCouses{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+}
+.footerCouses{
+    padding: 20px 0 40px 0;
+}
+.priceCourseContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+    margin: 0 auto;
+}
+.iconCourses{
+    width: 45%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.iconCourses div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon{
+    font-size: 25px;
+    padding: 10px 0;
+}
+.loginLink{
+    display: flex;
+    align-content: center;
+    text-decoration: none;
+    background-color: green;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none ;
+    border-radius: 10px;
+}
+.box{
+    width: 100%;
+    border-radius: 12px;
+    background-color: #fff;
+    -webkit-box-shadow:0px 4px 40px 0px rgba(62,66,66,0.23);
+    -moz-box-shadow: 0px 4px 40px 0px rgba(62,66,66,0.23);
+    box-shadow: 0px 4px 40px 0px rgba(62,66,66,0.23);
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-weight: bold;
+    font-size: 22px;
+    padding: 40px 0;
+}
+.imageTeacher{
+    margin: 20px auto;
+    width: 15%;
+}
+.textTeacher{
+    width: 70%;
+    margin: 0 auto;
+}
+.description{
+    text-align: justify;
+    line-height: 30px;
+}
+.naemTeacher{
+    padding: 40px 0 20px 0;
+    font-weight: bold;
+    font-size: 22px;
+}
+.job{
+    height: 12px;
+    color: rgb(102, 102, 102);
+}
+.btnShowAllQuestions{
+    margin: 20px auto;
+    display: block;
+    background-color: #fff;
+    border: none;
+    -webkit-box-shadow:0px 4px 40px 0px rgba(62,66,66,0.23);
+    -moz-box-shadow: 0px 4px 40px 0px rgba(62,66,66,0.23);
+    box-shadow: 0px 4px 40px 0px rgba(62,66,66,0.23);
+    padding: 7px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.closedQuestions{
+    height: 500px;
+    overflow: hidden;
+}
+.btnContinuation{
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 7px 15px;
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        width: 1100px;
+    }
+}
+@media (max-width: 900px) {
+    .video{
+        width: 100%;
+        height: 100px;
+    }
+    .titleAboutCourses{
+        flex-direction: column;
+    }
+
+    .textCourses{
+        width: 100%;
+    }
+    .video{
+        height: fit-content;
+    }
+    .footerCouses{
+        flex-direction: column;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .iconCourses{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .icon{
+        font-size: 20px;
+    }
+    .iconCourses div span{
+        font-size: 15px;
+    }
+    .priceCourseContainer{
+        width: 100%;
+    }
+    .imageTeacher{
+        width: 60%;
+    }
+    .textTeacher{
+        width: 90%;
+        margin: 10px auto;
+    }
+}

@@ -1,0 +1,124 @@
+.container{
+    width: 22%;
+    height: 380px;
+    background-color: white;
+    border-radius: 18px;
+    margin: 15px 12px;
+    -webkit-box-shadow:0px 4px 40px 0px rgba(62,66,66,0.23);
+    -moz-box-shadow: 0px 4px 40px 0px rgba(62,66,66,0.23);
+    box-shadow: 0px 4px 40px 0px rgba(62,66,66,0.23);
+    animation: loading 1s ease-in-out;
+}
+.image{
+    height: 60px;
+    display: block;
+    padding: 30px;
+}
+.image img{
+    width: 70px;
+}
+.container p{
+    font-weight: bold;
+    padding: 0 20px 30px 0;
+    height: 50px;
+}
+.watch{
+    display: flex;
+    align-items: center;
+    color: rgb(126, 87, 194);
+    padding: 0 20px 20px 0;
+}
+.iconWatch{
+    padding-left: 5px;
+    font-size: 20px;
+}
+.studentPrice{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+.studentBox{
+    padding: 4px 20px;
+    border-radius: 12px;
+    background-color: rgb(232, 234, 246);
+    color: rgb(126, 87, 194);
+}
+.linkDetail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: 25px auto;
+}
+.login{
+    padding: 8px 25px;
+    border-radius: 12px;
+    background-color:  rgb(126, 87, 194);
+    color: rgb(232, 234, 246);
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+.detail{
+    display: flex;
+    align-items: center;
+    color: rgb(126, 87, 194);
+    font-weight: bold;
+    text-decoration: none;
+}
+hr{
+    width: 85%;
+    margin: 20px auto;
+    color: rgb(226, 226, 226);
+}
+.btnbtnContinuation{
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid silver;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1000px) {
+    .detail{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 1100px) {
+    .container {
+        width: 30%;
+    }
+    .login{
+        padding: 5px 15px;
+    }
+}
+@media (max-width: 900px) {
+    .container{
+        width: 45% ;
+    }
+}
+
+@media (max-width: 640px) {
+    .container{
+        width: 100%;
+    }
+}
+

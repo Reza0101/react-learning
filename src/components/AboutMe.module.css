@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container img{
+    width: 30%;
+}
+.slider{
+    width: 50%;
+    margin: 30px auto;
+}
+
+
+@media (max-width: 900px) {
+    .container{
+        flex-direction: column-reverse;
+    }
+    .container img{
+        width: 50%;
+    }
+    .slider{
+        width: 100%;
+    }
+}
+@media (max-width: 600px) {
+    .container img{
+        width: 80%;
+    }
+}

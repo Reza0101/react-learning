@@ -1,0 +1,130 @@
+.container{
+    width: 85%;
+    margin: 80px auto;
+}
+.noProduct h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(109, 109, 109);
+}
+.noProduct img{
+    margin: 20px auto;
+    display: block;
+}
+.linkCourses{
+    text-decoration: none;
+    background-color: blueviolet;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 18px;
+}
+.btnCourses{
+    display: flex;
+    justify-content: center;
+    margin:  50px 0;
+}
+.products{
+    overflow-x: hidden;
+}
+.cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.itemsProducts{
+    width: 60%;
+}
+.itemsProducts p{
+    font-weight: bold;
+    font-size: 25px;
+}
+.products{
+    border-radius: 12px;
+    border: 1px solid silver;
+    margin: 20px 0;
+}
+.imgae{
+    width: 80px;
+    margin: 0 0 0 20px;
+}
+.productItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid silver;
+    padding: 15px;
+    border-bottom: 1px solid silver;
+    height: 100px;
+}
+.aboutProduct{
+    display: flex;
+    align-items: center;
+}
+.titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.iconDelete{
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid red;
+    border-radius: 7px;
+    padding: 0 15px;
+}
+.priceProducts{
+    width: 38%;
+    height: 400px;
+}
+.titlePriceProducts{
+    font-weight: bold;
+    font-size: 22px;
+}
+.priceContainer{
+    border-radius: 12px;
+    border: 1px solid silver;
+    width: 100%;
+    height: 250px;
+    margin: 20px 0;
+}
+.sumPrices{
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.chkeoutProducts{
+    text-decoration: none;
+    color: #fff;
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 7px 30px;
+    font-weight: bold;
+    width: fit-content;
+    display: block;
+}
+.btnChekcout{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+
+@media (min-width: 1200px) {
+    .container{
+        width: 1100px;
+    }
+}
+@media (max-width: 900px) {
+    .itemsProducts{
+        width: 100%;
+    }
+    .cart{
+        flex-direction: column;
+    }
+    .priceProducts{
+        width: 100%;
+    }
+
+}
