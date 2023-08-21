@@ -20,10 +20,12 @@
 .linkLogout{
     background-color: rgb(126, 87, 194);
     color: #fff;
+    border: 1px solid rgb(126, 87, 194);
 }
 .linkLogin{
     border: 1px solid rgb(126, 87, 194);
     color: rgb(126, 87, 194);
+    border: 1px solid rgb(126, 87, 194);
 }
 .linkLogin, .linkLogout{
     display: flex;

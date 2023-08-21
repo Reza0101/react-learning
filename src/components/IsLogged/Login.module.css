@@ -1,31 +1,40 @@
-.container{
+.container {
     margin: 80px auto;
     width: 85%;
 }
-.iamgeContainer{
+
+.iamgeContainer {
     display: flex;
     justify-content: center;
 }
-.image img{
+
+.image img {
     width: 180px;
 }
-.form{
+
+.form {
     margin: 40px auto;
     border-radius: 15px;
     width: 100%;
-    -webkit-box-shadow:0px 4px 40px 0px rgba(62,66,66,0.23);
-    -moz-box-shadow: 0px 4px 40px 0px rgba(62,66,66,0.23);
-    box-shadow: 0px 4px 40px 0px rgba(62,66,66,0.23);
+    -webkit-box-shadow: 0px 4px 40px 0px rgba(62, 66, 66, 0.23);
+    -moz-box-shadow: 0px 4px 40px 0px rgba(62, 66, 66, 0.23);
+    box-shadow: 0px 4px 40px 0px rgba(62, 66, 66, 0.23);
 }
-.linkLogout{
+
+.linkLogout {
     border: 1px solid rgb(126, 87, 194);
     color: rgb(126, 87, 194);
+    border: 1px solid rgb(126, 87, 194)
 }
-.linkLogin{
+
+.linkLogin {
     background-color: rgb(126, 87, 194);
     color: #fff;
+    border: 1px solid rgb(126, 87, 194)
 }
-.linkLogin, .linkLogout{
+
+.linkLogin,
+.linkLogout {
     display: flex;
     align-items: center;
     padding: 8px 20px;
@@ -33,7 +42,8 @@
     font-weight: bold;
     border-radius: 5px;
 }
-.btnLinkRoute{
+
+.btnLinkRoute {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -41,22 +51,27 @@
     width: 220px;
     margin: 0 auto;
 }
-.iconLogout, .iconLogin{
+
+.iconLogout,
+.iconLogin {
     font-size: 22px;
     padding: 0 0 0 5px;
 }
-.titleForm{
+
+.titleForm {
     text-align: center;
     font-weight: bold;
-    padding: 50px 0 0 0; 
+    padding: 50px 0 0 0;
     font-size: 25px;
     color: rgb(110, 110, 110);
 }
-.formInformation{
+
+.formInformation {
     margin: 0 auto;
     width: 85%;
 }
-.inputPhone{
+
+.inputPhone {
     font-size: 20px;
     padding: 0 15px;
     width: 90%;
@@ -66,16 +81,19 @@
     margin: 20px auto;
     border: 0.5px solid silver;
 }
-.inputPhone:focus{
+
+.inputPhone:focus {
     outline: none !important;
-    border: 2px solid rgb(126, 87, 194);    
+    border: 2px solid rgb(126, 87, 194);
 }
-.textNumberPhone{
+
+.textNumberPhone {
     font-weight: bold;
     padding: 40px 0 0 0;
     color: rgb(110, 110, 110);
 }
-.btnSend{
+
+.btnSend {
     width: 100%;
     border: none;
     color: #fff;
@@ -87,17 +105,24 @@
     margin: 15px 0 30px 0;
 }
 
+form{
+    margin-bottom: 200px;
+}
+.erros {
+    color: red;
+    text-align: right;
+}
 
 
 
 @media (min-width: 1200px) {
-    .container{
+    .container {
         width: 1100px;
     }
 }
 
 @media (min-width: 600px) {
-    .form{
+    .form {
         width: 500px;
     }
 }
