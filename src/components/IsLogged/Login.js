@@ -3,7 +3,7 @@ import style from "./Login.module.css";
 import { Link } from "react-router-dom";
 import { TiUserAddOutline } from "react-icons/ti";
 import { BiLogIn } from "react-icons/bi";
-import { useForm, SubmitHandler } from "react-hook-form";
+import { useForm } from "react-hook-form";
 
 const Login = () => {
   const {
@@ -13,7 +13,6 @@ const Login = () => {
   } = useForm();
 
   const submitHandler = () => {
-    console.log(errors);
   };
 
   return (
