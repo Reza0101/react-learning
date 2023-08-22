@@ -1,6 +1,6 @@
 import React,{useContext} from 'react';
 import style from './AboutUs.module.css';
-import {ProductContext} from './../../services/ProductProvider';
+import {ProductContext} from '../../services/ProductProvider';
 
 const AboutUs = () => {
 

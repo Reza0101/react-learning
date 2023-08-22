@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import style from './CommentsStudent.module.css';
-import { ProductContext } from '../services/ProductProvider';
-import Comment from './Comment';
+import { ProductContext } from '../../services/ProductProvider';
+import Comment from '../../components/Comment/Comment';
 
 const CommentStudents = () => {
 

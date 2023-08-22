@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { data } from '../services/Couses';
+import { data } from '../../services/Couses';
 import styled from 'styled-components';
 import style from './Slider.module.css';
 import {GoArrowRight, GoArrowLeft} from 'react-icons/go'

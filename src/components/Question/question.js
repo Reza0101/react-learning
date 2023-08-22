@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import style from './question.module.css';
 
-import { ProductContext } from '../services/ProductProvider';
+import { ProductContext } from '../../services/ProductProvider';
 
 const Question = props => {
 

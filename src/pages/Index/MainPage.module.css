@@ -26,18 +26,17 @@
     align-items: center;
     margin-top: 40px;
 }
-.studentComments{
+.studentBtn{
     background-color: rgb(232, 234, 246);
     border-radius: 15px;
-    padding: 12px 25px;
+    padding: 8px 10px;
     color: rgb(126, 87, 194);
     font-weight: bold;
-    font-size: 20px;
     cursor: pointer;
     text-decoration: none;
 }
-.courses{
-    padding: 12px 25px;
+.coursesBtn{
+    padding: 8px 10px;
     background-color: rgb(126, 87, 194);
     color: white;
     border-radius: 15px;
@@ -45,6 +44,8 @@
     cursor: pointer;
     text-decoration: none;
     margin-left: 10px;
+    display: flex;
+    align-items: center;
 }
 .arrowImg{
     width: 15%;

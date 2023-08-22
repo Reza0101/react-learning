@@ -1,12 +1,11 @@
-import React, {useContext, useEffect} from 'react';
+import React, {useContext} from 'react';
 import stye from './MainPage.module.css';
 import {TiArrowLeftThick} from 'react-icons/ti'
 import {Link} from 'react-router-dom';
-// import Arrow from '../image/Arrow.png'
-import Cart from './Cart';
-import { ProductContext } from '../services/ProductProvider';
-import StudentComment from './StudentComment';
-import AboutMe from './AboutMe';
+import Cart from '../../components/Cart/Cart';
+import { ProductContext } from '../../services/ProductProvider';
+import StudentComment from '../../components/StudentComments/StudentComment';
+import AboutMe from '../../components/AboutMe/AboutMe';
 
 const MainPage = () => {
 
@@ -22,11 +21,11 @@ const MainPage = () => {
                     <h1>آموزش برنامه نویسی با بوتواستارت</h1>
                     <p>آموزش هدفمند، پروژه محور جامع برنامه نویسی همراه با پشتیبانی دامی جزو استاندارد های آموزشی بوتواستارت است که بدون شک باعث ورود شما به بازار کار خواهد شد.</p>
                     <div className={stye.btns}>
-                        <Link to='/courses' className={stye.courses}>
+                        <Link to='/courses' className={stye.coursesBtn}>
                             <span>مشاهده دوره ها</span>
                             <TiArrowLeftThick />
                         </Link>
-                        <Link to='/student-comments' className={stye.studentComments}>
+                        <Link to='/student-comments' className={stye.studentBtn}>
                             نظرات دانشجویان
                         </Link>
                     </div>

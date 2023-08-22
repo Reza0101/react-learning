@@ -1,12 +1,12 @@
-import CommentStudents from './components/CommentStudents';
-import MainPage from './components/MainPage';
-import Products from './components/Products';
-import Login from './components/IsLogged/Login';
-import Logout from './components/IsLogged/Logout';
-import DetailCourses from './components/DetailCourses';
-import AboutUs from './components/AbouteUs/AboutUs';
-import ShoppingCart from './components/IsLogged/ShoppingCart';
-import NoteFoune from './components/NoteFoune';
+import CommentStudents from './pages/CommentsStudent/CommentStudents';
+import MainPage from './pages/Index/MainPage';
+import Products from './pages/Products/Products';
+import Login from './pages/Login/Login';
+import Logout from './pages/Logout/Logout';
+import DetailCourses from './pages/DetailCourses/DetailCourses';
+import AboutUs from './pages/AbouteUs/AboutUs';
+import ShoppingCart from './pages/ShopingCart/ShoppingCart';
+import NoteFoune from './components/NoteFound/NoteFoune';
 
 
 

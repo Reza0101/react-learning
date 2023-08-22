@@ -3,10 +3,10 @@ import style from './Cart.module.css';
 import {MdOutlineWatchLater} from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import {TiArrowLeftThick} from 'react-icons/ti'
-import { cartContext } from '../services/CartContextProvider';
-import { isInCart } from '../helper/function';
-import {formatPrice} from '../helper/function';
-import animation from './Animation-scroll';
+import { cartContext } from '../../services/CartContextProvider';
+import { isInCart } from '../../helper/function';
+import {formatPrice} from '../../helper/function';
+import animation from '../Animation-scroll';
 
 const Cart = ({productData}) => {
 

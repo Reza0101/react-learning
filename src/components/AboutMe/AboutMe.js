@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './AboutMe.module.css';
-import Slider from './Slider';
+import Slider from '../Slider/Slider';
 
 const AboutMe = () => {
     return (

@@ -6,7 +6,7 @@ import {GrClose} from 'react-icons/gr';
 import {GiHamburgerMenu} from 'react-icons/gi';
 import {BiLogIn} from 'react-icons/bi';
 import {BsCart3} from 'react-icons/bs';
-import {cartContext} from '../services/CartContextProvider';
+import {cartContext} from '../../services/CartContextProvider';
 
 let Ul = styled.div`
 @media (max-width: 900px) {

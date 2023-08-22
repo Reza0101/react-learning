@@ -1,16 +1,16 @@
 import React, {useContext, useState} from 'react';
 import style from './DetailCourses.module.css';
 import { Link, useParams } from 'react-router-dom';
-import { ProductContext } from '../services/ProductProvider';
+import { ProductContext } from '../../services/ProductProvider'
 import {BiSupport} from 'react-icons/bi';
 import {MdOutlineWatchLater} from 'react-icons/md';
 import {FaChalkboardTeacher} from 'react-icons/fa';
 import {FaUserGraduate} from 'react-icons/fa';
-import Dropdowing from './Drowdown/Dropdowing';
-import Question from './question';
-import { cartContext } from '../services/CartContextProvider';
-import { isInCart } from '../helper/function';
-import { formatPrice } from '../helper/function';
+import Dropdowing from '../../components/Drowdown/Dropdowing'
+import Question from '../../components/Question/question'
+import { cartContext } from '../../services/CartContextProvider';
+import { isInCart } from '../../helper/function';
+import { formatPrice } from "../../helper/function"
 
 const DetailCourses = () => {
 

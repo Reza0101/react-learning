@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import style from './Products.module.css';
-import { ProductContext } from '../services/ProductProvider';
-import Cart from './Cart';
+import { ProductContext } from '../../services/ProductProvider';
+import Cart from '../../components/Cart/Cart';
 
 const Products = () => {
 
