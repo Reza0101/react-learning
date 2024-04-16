@@ -7,6 +7,7 @@ import ScrollToTop from './components/ScrollToTop';
 import CartContextProvider from './services/CartContextProvider';
 import routes from './routes';
 import animation from './components/Animation-scroll';
+import './index.css'
 
 
 const App = () => {

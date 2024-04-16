@@ -16,9 +16,9 @@ const MainPage = () => {
     return (
         <div className={stye.container}>
             <div data-aos='zoom-in' className={stye.header}>
-                <img src='https://botostart.ir/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbanner.b9133f39.png&w=1920&q=75' />
+                <img src='https://botostart.ir/_next/static/media/banner.6e498f5a.svg' />
                 <div className={stye.titleText} dir='rtl'>
-                    <h1>آموزش برنامه نویسی با بوتواستارت</h1>
+                    <h1 className={stye.title}>آموزش برنامه نویسی با بوتواستارت</h1>
                     <p>آموزش هدفمند، پروژه محور جامع برنامه نویسی همراه با پشتیبانی دامی جزو استاندارد های آموزشی بوتواستارت است که بدون شک باعث ورود شما به بازار کار خواهد شد.</p>
                     <div className={stye.btns}>
                         <Link to='/courses' className={stye.coursesBtn}>

@@ -59,7 +59,7 @@ const ShoppingCart = () => {
                 </div>:     
                 <div className={style.noProduct}>
                     <h4>!متاسفانه سبد شما خالی است</h4>
-                    <img src='https://botostart.ir/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fempty-basket.e02ad87e.png&w=256&q=75' />
+                    <img src='https://botostart.ir/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fempty-basket.2bdef472.png&w=384&q=75' />
                     <div className={style.btnCourses}>
                         <Link className={style.linkCourses} to='/courses'>
                             ثبت نام و شروع برنامه نویسی

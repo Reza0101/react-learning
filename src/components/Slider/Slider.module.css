@@ -1,43 +1,30 @@
-.boxSlider{
-    background-color: white;
-    border-radius: 12px;
-    width: 85%;
-    -webkit-box-shadow:0px 4px 40px 0px rgba(62,66,66,0.23);
-    -moz-box-shadow: 0px 4px 40px 0px rgba(62,66,66,0.23);
-    box-shadow: 0px 4px 40px 0px rgba(62,66,66,0.23);
-    padding: 15px;
-    top: 0;
-}
-.boxSlider span{
-    font-weight: bold;
-    color: rgb(126, 87, 194);
-    font-size: 22px;
-}
-.container{
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 70px;
     position: relative;
+    background-color: red;
 }
-.btns{
-    font-size: 25px;
-    color: rgb(126, 87, 194);
-    font-size: 30px;
-    margin: 250px auto 0 auto;
+
+.item_slide {
+    background-color: white;
+    direction: rtl;
+    border-radius: 10px;
+    padding: 35px;
+    -webkit-box-shadow: 0px 10px 39px 10px rgba(62, 66, 66, 0.22);
+    -moz-box-shadow: 0px 10px 39px 10px rgba(62, 66, 66, 0.22);
+    box-shadow: 0px 10px 39px 10px rgba(62, 66, 66, 0.22);
 }
-.iconPrevSlider , .iconNextSlider{
-    margin: 0 10px;
-    cursor: pointer;
+.swiper-slide-prev{
+    background-color: white;
 }
-@media (max-width: 600px) {
-    .btns{
-        margin-top: 350px;
-    }
-}
-@media (max-width: 400px) {
-    .btns{
-        margin-top: 400px;
-    }
+.item_slide>h1 {
+    background-color: white !important;
+    border-radius: 10px;
+    color: #7C3AED;
+    padding: 0 0 20px 0;
+    font-weight: 900;
+    font-size: larger;
 }
